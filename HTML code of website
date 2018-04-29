@@ -1,0 +1,852 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title></title>
+  <meta name="description" content="My Student Website">
+  <meta name="author" content="E07593">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+<style>
+html {
+    font-family:verdana;
+}
+
+header, footer {
+    padding: 0.01em;
+    color: white;
+    background-color: rgb(138, 26, 0);
+    clear: left;
+    text-align: center;
+}
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.column {
+    float: left;
+    width: 100%;
+    padding: 5px;
+}
+
+.column a {
+    float: left;
+    width: 100%;
+    padding: 5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+</style>
+</head>
+
+<body>
+<!-- Wrap -->
+	<div id="wrapper">
+		<!-- Head -->
+			<header id="myHeader">  
+			  <h1 style="text-align:center;">Team Red's Assignment 2</h1>
+			  <p style="text-align:center;">The I.T. World</p> 
+			</header>
+			  
+			 
+
+<!-- Main -->
+		<div id="main">
+        
+<!-- Image -->
+			<ul>
+  <li><a href="#home">Viet Richard Tran</a></li>
+  <li><a href="#news">Tianjie Zhan</a></li>
+  <li><a href="#contact">Duncan Robertson</a></li>
+  <li><a href="#about">Chun Hei Li</a></li>
+</ul>
+            
+<!-- Team Profile-->
+			<section id="team profile">
+			  <header class="sectionHeading">
+				<h2 style="text-align:center">Team Profile</h2>
+			  </header>
+            <div class="row">
+              <div class="column">
+                <h3>Richard</h3>
+                   <p>My name is Viet Richard Tran though I prefer to go by Richard. My student number is s3707735. I was born in Melbourne and I am of a Vietnamese background. My hobbies include watching anything on Netflix and playing video games.
+You could say my interests in IT first began when I started to think about how I was able to carry a collection of books and watch hours of video on a device that I could take with me anywhere I went. Essentially, I wanted to know how this was achieved and why I wanted to study IT at a tertiary level. I lack IT experience though I hope to make up it by applying and getting into internships and work experience placements. 
+</p>
+<p>Overall, the Myers-Briggs test shows my personality is mostly introverted. Comparing my Myers-Briggs test result to the other members of the group show that 3 out of 4 have introverted personalities. Therefore, the introverted members of the group should not have much trouble communicating with each other. The result from the VARK Questionnaire shows I prefer to learn through reading and writing. The result from the Logical Reasoning Test shows my ability to make decisions and solve problems is solid. </p>
+              </div>
+              <div class="column">
+                <h3>Kelly</h3>
+                   <p>My name is Tianjie Zhan, you can call me Kelly, my student number is S3634778. I was living in China, this is my first year in Australia and my university. Watching movies and playing piano are my hobbies and i was obsessed with multiplayer online player game. Actually, I am still new in this area but I found some computer games and mobile games are very interesting the character models are beautiful and they can imitate human actions. So when I play the games I cannot stop wondering how they work and what behind these games. I expect to learn more IT basic knowledge and i think after study i will know what is my next step.</p>
+                   <p>For me, these results may be representing my situation now, they will inspire me, but I think I m still changing. I don’t think these results will influence me a lot when I work with a team, the environment and teammate will influence me more than these result but I will take some advice from these results, for example, it’s said that I am a visual learner then when I try to learn or remember something I will try to use some pictures to help me.</p>
+              </div>
+              <div class="column">
+                <h3>Duncan</h3>
+                  <p>My name is Duncan Robertson, student number s3657470. I’ve lived in Melbourne, Australia for the majority of my life and attended schooling at Xavier College. My school education was the main driving factor towards my current interests and hobbies. I’ve played tennis and basketball throughout all my teenage years, and am passionate about problem solving and conflict resolution - playing a lot of team strategy computer and board games with others. I’ve had minimal experience with IT, only through self interest of understanding basic computer applications and with no formal education in IT as of yet. I have, recently, begun to understand the basics of programming language of HTML, CSS and Java-script and am a member of Team Red.</p>
+                  <p>The online tests demonstrate that I struggle to take charge or confidently engage in discussion about issues, however am a reserved and calm person. These tests indicate to my team that I’m likely happy to pursue any line of project work or interesting idea that is proposed if its engaging and do best with improving on previous attempts at work completion.</p>
+
+              </div>
+              <div class="column">
+                <h3>Anson</h3>
+                  <p>My name is Chun Hei Li. You can call me Anson. I finished my high school life in Brisbane and moved to Melbourne for my University study. I love playing tennis and playing guitar when I have time. The reason why I choose IT to study is because it has a lot problem solving technique involved. I love fixing computers and take challenges from difficult problems. Talking about careers, I have been working in Vodafone as a sales for 4 years until now. Other than that, I have not been working in any Related IT jobs yet.</p>
+                  <p>This results shows that I am extraverted, which means I could be described as talkative and outgoing. I like to be in a fast-paced environment and tend to work out ideas with others. Also, I enjoy being in the center of attention. However, I prefer to have matters settled. I will think more on rules and deadlines. All the steps will prefer to have more detail on step by step instructions as well as making a plan and want to know where I am getting into. Furthermore, I have a strong aural learning preference like discussions, stories etc. Also, I have a strong kinaesthetic learning preference like senses, practical exercises, examples, cases, trial and error.</p>
+              </div>
+            </div>
+            <h2> Online Personality Tests. </h2>
+            <table id="customers">
+              <tr>
+                <th>Richard</th>
+                <th>Anson</th>
+                <th>Duncan</th>
+                <th>Kelly</th>
+              </tr>
+              <tr>
+                <td>Myers-Briggs Test - Personality Test. 
+Introvert (47%), Sensing (9%), Thinking (3%), Judging (38%)
+</td>
+                <td>Myers-Briggs Test - Personality Test.
+                    Extravert(59%), Sensing (12%), Feeling(31%), Judging (3%)
+</td>
+                <td>“Human Metrics” personality test. Outcome = INTJ (Introverted Intuitive Thinking Judging)</td>
+                <td>Myers-Briggs test：INFJ-A</td>
+              </tr>
+              <tr>
+                <td>VARK Questionnaire - Learning Style Test. 
+Visual =  2
+Aural (Auditory) = 4
+Read/Write = 11
+Kinesthetic (Practical) = 3 
+</td>
+                <td>VARK Questionnaire - Learning Style Test 
+Visual - 5
+Aural (Auditory) - 13
+Read/Write - 4
+Kinesthetic (Practical)  - 13
+</td>
+                <td>“Learning Style” test. Outcome = Visual Learner.</td>
+                <td>"Learning style" test. Outcome = Visual Learner.</td>
+              </tr>
+              <tr>
+                <td>Logical Reasoning Test
+                    Scored in the 71st percentile or top 29%
+                    Speed - 100%
+                    Accuracy - 47%</td>
+                <td>IPC personality report.
+ 
+Confident (in own ability to succeed) - 7/10(suitable)
+
+Achievement Driven - 6/10(suitable)    </td>
+                <td>“16 Personalities” test. Outcome = ISFP (Adventurer Personality)                     </td>
+                <td>My creativity score is: 66.94/100</td>
+              </tr>
+            </table>
+            
+            <h2>Ideal Jobs comparison</h2>
+            <table id="customers">
+              <tr style= "text-align: center">
+                <td style= "text-align: center">Richard</th>
+                <td>Data Analyst</td>
+              </tr>
+               <tr>
+                <td style= "text-align: center">Anson</th>
+                <td style= "text-align: center">I.T Support Officer              </td>
+              </tr>
+               <tr>
+                <td style= "text-align: center">Duncan</th>
+                <td style= "text-align: center">Software Developer</td>
+              </tr>
+               <tr>
+                <td style= "text-align: center">Kelly</th>
+                <td style= "text-align: center">IT Business Analyst </td>
+              </tr>
+            </table>
+            
+              <div class="row">
+                <div class="column a">
+                  <h3>What common elements are there, if any?</h3>
+                    <p>A common element found between all 4 job positions are the important soft skills of strong interpersonal and communication skills and the ability to work within a team. 
+The role of Data Analyst and IT Business Analyst makes extensive use of data. The Data Analyst uses the data to conduct data analysis, determine and interpret trends found in the data, and report these trends to management. Whereas, the IT Business Analyst uses data for data modelling. 
+</p>
+                </div>
+                <div class="column a">
+                  <h3>What differentiates each position from the others, if anything?</h3>
+                  <p>The IT Support Officer position is more geared towards a customer service oriented role where the IT Support Officer will provide technical support for people’s IT problems. Whereas, for Data Analyst, IT Business Analyst, and Software Developer, interactions with consumers and customers are less likely in general. 
+</p>
+                </div>
+                <div class="column a">
+                  <h3>How similar or different are your career plans across the group? </h3>
+                    <p>Duncan’s career plan is in contrast to the other group member’s career plans due to his ideal job in software development which allows him to create and build. Whereas, the other ideal jobs do not have anything to do with development in general. </p>                          
+            </section>
+			
+<!-- Industry Data -->
+			<section id="industry data">
+			  <header class="sectionHeading">
+				<h2 style="text-align:center">Industry Data</h2>
+			  </header>
+              <h3 style="text-align: center">Data Analyst</h3>
+                <p>There is nothing specific for Data Analyst, however, the position requires to establish and apply a data gathering method, establish and manage datasets and databases, writing up reports which include analysing, interpreting, and reporting on the relevant data.
+A number of positions below include these tasks: </p>
+            
+             <table id="customers">
+              <tr>
+                <th>Job Title</th>
+                <th>Employer Demand Rank</th>
+                <th>Number of Job postings</th>              
+              </tr>
+              <tr>
+                <td>Database Administrator</td>
+                <td>29</td>
+                <td>238</td>              
+              </tr>
+              <tr>
+                <td>Data Engineer </td>
+                <td>38</td>
+                <td>182</td>              
+              </tr>
+              <tr>
+                <td>Data Architect </td>
+                <td>47</td>
+                <td>162</td>              
+              </tr>
+             <tr>
+                <td>Sql Database Administrator</td>
+                <td>93</td>
+                <td>95</td>              
+              </tr>
+              <tr>
+                <td>Data Administrator </td>
+                <td>108</td>
+                <td>82</td>              
+              </tr>
+              <tr>
+                <td>Oracle Database Administrator </td>
+                <td>116</td>
+                <td>75</td>              
+              </tr>
+              <tr>
+                <td>Big Data Engineer</td>
+                <td>123</td>
+                <td>71</td>              
+              </tr>
+              <tr>
+                <td>Senior Database Administrator</td>
+                <td>142</td>
+                <td>61</td>              
+              </tr>
+              <tr>
+                <td>Senior Data Engineer </td>
+                <td>161</td>
+                <td>55</td>              
+              </tr>
+              <tr>
+                <td>Data Warehouse Developer</td>
+                <td>191</td>
+                <td>44</td>              
+              </tr>
+            </table>
+            
+            <p>How do the IT-specific skills in your required skill set rank in terms of
+demand from employers?</p>
+
+            <table id="customers">
+              <tr>
+                <th>I.T Specific Skills</th>
+                <th>Employer Demand Rank</th>
+                <th>Number of Job postings</th>              
+              </tr>
+              <tr>
+                <td>SQL</td>
+                <td>1</td>
+                <td>3570</td>              
+              </tr>
+              <tr>
+                <td>SQL Server</td>
+                <td>13</td>
+                <td>1014</td>              
+              </tr>
+              <tr>
+                <td>MySQL</td>
+                <td>30</td>
+                <td>549</td>              
+              </tr>
+             <tr>
+                <td>Microsoft SQL</td>
+                <td>38</td>
+                <td>374</td>              
+              </tr>
+              <tr>
+                <td>Postgre SQL</td>
+                <td>46</td>
+                <td>290</td>              
+              </tr>
+              <tr>
+                <td>Transact SQL</td>
+                <td>47</td>
+                <td>288</td>              
+              </tr>
+              <tr>
+                <td>NoSQL</td>
+                <td>48</td>
+                <td>283</td>              
+              </tr>
+              <tr>
+                <td>SQL Server Reporting Services</td>
+                <td>56</td>
+                <td>253</td>              
+              </tr>
+              <tr>
+                <td>Oracle PL/SQL</td>
+                <td>62</td>
+                <td>237</td>              
+              </tr>          
+            </table>
+
+             <h3 style="text-align: center">IT Business Analyst</h3>
+             <p>IT Business Analyst with the ability to operate at all levels of technology and business. This position required to combine IT and business together has related application and cloud architecture experience analyze data and find business solutions from data. This position also required employees ensure system/applications can orderly operation, familiar with IT related concept, have experience of design and development integration projects pertaining. IT Business Analyst’s Employer Demand Rank is 63, numbers of job posting is 121.</p>
+             
+              <p>How do the IT-specific skills in your required skill set rank in terms of
+demand from employers?</p>
+
+            <table id="customers">
+              <tr>
+                <th>I.T Specific Skills</th>
+                <th>Employer Demand Rank</th>
+                <th>Number of Job postings</th>              
+              </tr>
+              <tr>
+                <td>Microsoft Windows</td>
+                <td>5</td>
+                <td>2699</td>              
+              </tr>
+              <tr>
+                <td>Business Management</td>
+                <td>8</td>
+                <td>2141</td>              
+              </tr>
+              <tr>
+                <td>Business Analysis</td>
+                <td>10</td>
+                <td>2096</td>              
+              </tr>
+             <tr>
+                <td>Solution Architecture</td>
+                <td>80</td>
+                <td>460</td>              
+              </tr>
+              <tr>
+                <td>Business Systems Analysis</td>
+                <td>87</td>
+                <td>446</td>              
+              </tr>                   
+            </table>
+            
+             <h3 style="text-align: center">Software Developer NO TEXT</h3>
+             <p>IT Business Analyst with the ability to operate at all levels of technology and business. This position required to combine IT and business together has related application and cloud architecture experience analyze data and find business solutions from data. This position also required employees ensure system/applications can orderly operation, familiar with IT related concept, have experience of design and development integration projects pertaining. IT Business Analyst’s Employer Demand Rank is 63, numbers of job posting is 121.</p>
+             
+               <p>How do the IT-specific skills in your required skill set rank in terms of
+demand from employers?</p>
+
+            <table id="customers">
+              <tr>
+                <th>I.T Specific Skills</th>
+                <th>Employer Demand Rank</th>
+                <th>Number of Job postings</th>              
+              </tr>
+              <tr>
+                <td>Microsoft Windows</td>
+                <td>5</td>
+                <td>2699</td>              
+              </tr>
+              <tr>
+                <td>Business Management</td>
+                <td>8</td>
+                <td>2141</td>              
+              </tr>
+              <tr>
+                <td>Business Analysis</td>
+                <td>10</td>
+                <td>2096</td>              
+              </tr>
+             <tr>
+                <td>Solution Architecture</td>
+                <td>80</td>
+                <td>460</td>              
+              </tr>
+              <tr>
+                <td>Business Systems Analysis</td>
+                <td>87</td>
+                <td>446</td>              
+              </tr>                   
+            </table>
+             <h3 style="text-align: center">IT Support Officer NO TEXT</h3>
+             <p>IT Business Analyst with the ability to operate at all levels of technology and business. This position required to combine IT and business together has related application and cloud architecture experience analyze data and find business solutions from data. This position also required employees ensure system/applications can orderly operation, familiar with IT related concept, have experience of design and development integration projects pertaining. IT Business Analyst’s Employer Demand Rank is 63, numbers of job posting is 121.</p>
+             
+               <p>How do the IT-specific skills in your required skill set rank in terms of
+demand from employers?</p>
+
+            <table id="customers">
+              <tr>
+                <th>I.T Specific Skills</th>
+                <th>Employer Demand Rank</th>
+                <th>Number of Job postings</th>              
+              </tr>
+              <tr>
+                <td>Microsoft Windows</td>
+                <td>5</td>
+                <td>2699</td>              
+              </tr>
+              <tr>
+                <td>Business Management</td>
+                <td>8</td>
+                <td>2141</td>              
+              </tr>
+              <tr>
+                <td>Business Analysis</td>
+                <td>10</td>
+                <td>2096</td>              
+              </tr>
+             <tr>
+                <td>Solution Architecture</td>
+                <td>80</td>
+                <td>460</td>              
+              </tr>
+              <tr>
+                <td>Business Systems Analysis</td>
+                <td>87</td>
+                <td>446</td>              
+              </tr>                   
+            </table>
+            
+            <hr>
+            
+            <h3>How do the general skills in your required skill set rank in terms of demand
+from employers?</h3>
+              
+               <table id="customers">
+              <tr>
+                <th>General Skills</th>
+                <th>Employer Demand Rank</th>
+                <th>Number of Job postings</th>              
+              </tr>
+              <tr>
+                <td>Communication Skills</td>
+                <td>1</td>
+                <td>44,367</td>              
+              </tr>
+              <tr>
+                <td>Problem Solving </td>
+                <td>2</td>
+                <td>16,445</td>              
+              </tr>
+              <tr>
+                <td>Organisational Skills</td>
+                <td>3</td>
+                <td>15,844</td>              
+              </tr>
+             <tr>
+                <td>Writing </td>
+                <td>4</td>
+                <td>15,590</td>              
+              </tr>
+              <tr>
+                <td>Teamwork/Collaboration</td>
+                <td>5</td>
+                <td>14,364</td>              
+              </tr>                   
+              <tr>
+                <td>Planning</td>
+                <td>7</td>
+                <td>11,315</td>              
+              </tr>
+              <tr>
+                <td>Detail-Oriented</td>
+                <td>8</td>
+                <td>8298</td>              
+              </tr>
+              <tr>
+                <td>Time Management</td>
+                <td>12</td>
+                <td>5059</td>              
+              </tr>
+              <tr>
+                <td>Presentation Skills</td>
+                <td>15</td>
+                <td>3716</td>              
+              </tr>
+             <tr>
+                <td>Meeting Deadlines </td>
+                <td>16</td>
+                <td>3346</td>              
+              </tr>
+              <tr>
+                <td>Analytical Skills </td>
+                <td>17</td>
+                <td>2997</td>              
+              </tr>     
+              <tr>
+                <td>Multi-Tasking </td>
+                <td>20</td>
+                <td>2640</td>              
+              </tr>
+              <tr>
+                <td>English</td>
+                <td>21</td>
+                <td>2604</td>              
+              </tr>
+              <tr>
+                <td>Building Effective Relationships </td>
+                <td>22</td>
+                <td>2473</td>              
+              </tr>
+              <tr>
+                <td>Articulate </td>
+                <td>23</td>
+                <td>2171</td>              
+              </tr>
+             <tr>
+                <td>Self-Starter </td>
+                <td>24</td>
+                <td>1984</td>              
+              </tr>
+              <tr>
+                <td>Decision Making </td>
+                <td>25</td>
+                <td>1850</td>              
+              </tr>     
+            </table>
+            <hr>
+             <table id="customers">
+                <tr>
+                <td></td>
+                <th>What are the three highest ranked IT-specific skills which are not in your
+required skill set?</th>
+              </tr>
+              <tr>
+                <td>Data Analyst</td>
+                <td>JavaScript, JAVA, and Project Management. </td>
+              </tr>
+              <tr>
+                <td>I.T Support Officer</td>
+                <td>SQL, JavaScript, JAVA.</td>
+              </tr>
+              <tr>
+                <td>Software Developer</td>
+                <td>FILL</td>
+              </tr>
+              <tr>
+                <td>I.T Business Analyst</td>
+                <td>JAVA and C++</td>
+              </tr>
+              </table>
+            
+            <hr>
+             <table id="customers">
+                <tr>
+                <td></td>
+                <th>What are the three highest ranked general skills which are not in your
+required skill set?</th>
+              </tr>
+              <tr>
+                <td>Data Analyst</td>
+                <td>Creativity, Leadership, and Mentoring </td>
+              </tr>
+              <tr>
+                <td>I.T Support Officer</td>
+                <td>Troubleshooting, Research, Leadership.</td>
+              </tr>
+              <tr>
+                <td>Software Developer</td>
+                <td>FILL</td>
+              </tr>
+              <tr>
+                <td>I.T Business Analyst</td>
+                <td>Extravert, Feeling and Sensing</td>
+              </tr>
+              </table>
+              
+               <hr>
+             <table id="customers">
+                <tr>
+                <td></td>
+                <th>Having looked at the Burning Glass data, has your opinion of your ideal job changed?
+Why or why not?
+</th>
+              </tr>
+              <tr>
+                <td>Data Analyst</td>
+                <td>My opinion on my ideal job has not changed, the Burning Glass data has actually informed me that a lack a number of IT specific skills. One major role of the Data Analyst position is to create databases. A major programming language used in databases is SQL; this is a programming language that I need to learn in order to be successful in the role of Data Analyst. </td>
+              </tr>
+              <tr>
+                <td>I.T Support Officer</td>
+                <td>My opinion of my ideal job has not changed, I was inspired by the Burning GLass data, I learned what skills are I needed to learn and i understand the general demands of this job.</td>
+              </tr>
+              <tr>
+                <td>Software Developer</td>
+                <td>FILL</td>
+              </tr>
+              <tr>
+                <td>I.T Business Analyst</td>
+                <td>My opinion of my ideal job has not changed, the burning glass data has actually inspired me some kind of skills I should learn in the IT field and to get more information about what my job is about to be.</td>
+              </tr>
+              </table>                       
+			</section>  
+            
+<!-- I.T Work -->
+			<section id="IT work">
+			  <header class="sectionHeading">
+				<h2>I.T Work</h2>
+			  </header>
+                
+                <h3 style="text-align: center">Zach Littlefield - Management consultant in Future Knowledge</h3>
+                  <p>Zach Littlefield specialize in organizational change and strategy when it comes to technology implementation which means he helps a client organization try to implement a new piece of technology and make sure during the course of implementation that the change and user adoption is very smooth which is one thing to go and also a new piece of software into an organization and fixes everything. Also, he needs to make sure that people actually know how to use that technology and why the technology is there. How the change is happening and how the change is actually affecting them on day-to-day basis. </p>
+                  <p>There is really no such a typical person he is interacting with. Someday he is actually going to visit his client and working at their office directly. He also need to run workshops that try to get information from them and meeting with a wide range of different people from the organization to get a lot of different perspectives.
+</p>
+                  <p>As mentioned above, he also have someday sitting in his office studying and learning that trying to get solutions for his clients and also researching best practice, which means he is learning from different organisation. From there, he can show the client what has work and what hasn’t.
+</p>
+                  <p>The most challenging thing in his career is that he has not studied any IT before. He studied business and get an opportunities to work for technology. </p>
+                
+                <h3 style="text-align: center">Simon Ferrari – IT Manager in Datacom Systems </h3>
+                  <p>Simon’s main role is to oversee the projects the staff are working on and working with their business and project managers who oversee the staff. Simon is also involved in software development, an area that he believes allows him to bring out the best in his leadership skills and creativity</p>
+                  <p>Simon interacts with his employees in a number of ways including individual meetings for reviews on performance, phone or video conferences with staff or clients in or out of New Zealand. Simon also values being able to act as a mentor to bring out the potential in his staff </p>
+                  <p>Simon’s role has given him the flexibility to travel the world including Australia, Cambodia, and Edinburgh</p>   
+                  <p>A challenge that an IT manager can face is not being able to get their employees to be as productive as they can. All employees have different needs, personalities, and work styles and it takes a good IT manager to be able to motivate and guide all these unique individuals to work the best they can without micromanagement </p>
+                  
+                <h3 style="text-align: center">Mai Yia Vue – Tier 1 Help Desk Specialist for a U.S Bank</h3>
+                  <p>Mia is one of many responsible for technical support of several systems. Her role is to assist people with their IT problems through live chat and phone calls. Several IT problems Mia can face is installing and/or uninstalling programs, troubleshooting problems, assisting people step by step with their problems, resetting passwords.</p>
+                  <p>Mia’s role is in a U.S bank so the people she normally interacts with are the bank employees who need assistance with their IT problems. In addition, she also interacts with her fellow IT help desk colleagues and managers who all support each other and figure out each other’s IT problems if needed.</p>
+                  <p>Mia’s position requires her to be in the bank’s support centre most of the time.
+</p>   
+                  <p>What Mia finds challenging is trying to keep up with handling the numerous applications that the bank’s IT support centre oversees and not be overwhelmed.</p>
+                  
+                <h3 style="text-align: center">Mark Betts - End user computing configuration supervisor</h3>
+                  <p>In short, He is over the operations teams for their exchange and email environment on PC workstation environment. Their software delivery environment are also on mobile devices to the normal end-user it’s really all of the devices that IT touches that impact the end user. So their clients are pretty much everyone in the company and his job is to make sure the services they used to are working 100% all the time.
+</p>
+                  <p>There is really no such a typical person he is interacting with. He usually due with clients and making sure that the services they used to are working 100% all the time.
+</p>
+                  <p>He spends most of the time on helping to their clients are pretty much everyone in the company and his job is to make sure the services they used to are working 100% all the time.
+</p>
+                  <p>I can’t see any challenging for this IT professional as he is very “professional” for this job already.
+</p>
+                  
+                <h3 style="text-align: center">Mayuko S — Software Engineer</h3>
+                  <p>Mayuko’s role is to work on an application that a designer has created mockups of according to a project manager. She uses most of her work time writing code in several steps of a plan that she developed before beginning coding features, fixing bugs in her or others work or making improvements to tools that will make it easier for her or others to create the application.
+</p>
+                  <p>Mayuko works for clients, however doesn’t interact with them. She is several steps into the development of an application that a client wants until she is notified for work. As a Software Engineer, Mayuko interacts with a Project Manager for the specific job she is working on, talks with designers of the specific job and other software engineers that are programming the application with her. She works within a company that hire several of these roles, therefore interacting only with other IT professionals within her building.
+</p>
+                  <p>Mayuko spends most of her time at her desk, which is an open spaced area fielding up to 30 or more desks - about 70% of her time, where she creates code.
+The rest of her working time is spend outside of her desk either in large meetings about specific jobs or in 1 on 1 consultations with other IT professionals in her building.
+</p>  
+                  <p>The sedentary nature of the position and the variability of the workload. At times days can be very repetitive where there are no meetings held and Mayuko can spend most of her work day, up to 8 hours simply sitting at her desk coding. On other days she can be talking to people for most of the day and only spend a couple of hours at her desk.
+</p>
+                  
+                <h3 style="text-align: center">Jonathan Dalia — IT manager for Langer Transport Corporation</h3>
+                  <p>Jonathan’s main job is collecting all the related data at their locations. He checks their system and does some basic recover jobs. He also deals with some issues comes up every day. He is working on improving the system and trying to decrease the costs. Writing reports about their company’s system also his job.</p>
+                  <p>They are working with their customers and company staffs, the company staffs can be IT professionals or staffs from different department of the company.</p>
+                  <p>Jonathan spent most his time in his company. Some IT managers have flexible workplaces.  (Careersnz 2017)</p> 
+                  <p>What Jonathan’s biggest challenge is before he accepts the job, there are some bits of knowledge that he never learned before and he doesn’t have related experience. So he had to learn some new things and try to manage all these knowledges applied  them in the job. </p>
+                  
+            </section>
+          
+<!-- I.T Technologies -->
+			<section id="IT tech">
+			  <header class="sectionHeading">
+				<h2>I.T Technologies</h2>
+			  </header>
+            
+            <h3 style="text-align: center">Blockchain and Cryptocurrencies</h3>
+            <p>Blockchain is a decentralised online ledger not overseen by any financial or government institution. Blockchain holds and distributes information such as transactions and documents forever on a network of computers called nodes. This makes it difficult for a hacker to steal or corrupt the information as there can be no limit to the number of nodes on the blockchain which independently verify the information (CNBC International 2017).
+            The people who have computers connected to the blockchain have blocks which contain information such as cryptocurrency transactions. These blocks are linked to a prior block and contain timestamps which together form a sequential chain, hence, blockchain. People on the blockchain can add and view information on the block but cannot do anything to modify the information already present. This is done is through cryptography ensuring that it is almost impossible to make changes (CNBC International 2017).
+            A well-known use of blockchain is bitcoin which is a form of cryptocurrency. Bitcoin is a digital currency that is decentralised without any financial or government institution acting as an intermediary or middle man. This allows anonymity because there is no one asking you for your personal details. Rather what happens is that miners verify the Bitcoin or cryptocurrency transactions and earn compensation for it (CNBC International 2017).
+            The cryptocurrency stored on Blockchain is public ensuring that the cryptocurrency can be easily verified; is not centralised or held at one location. This makes it more secure from hackers (Rosic 2016a). Generally, cryptocurrency owners own a private key allowing them to access and withdraw their cryptocurrency for their own use. In addition, each cryptocurrency account has a public key allowing others to send cryptocurrency to the person’s account (Kleinman 2018). Overall, how blockchain fits into this is that it allows people to confirm to themselves and to others they are the legitimate owners of their Bitcoin or cryptocurrency (CNBC International 2017).</p>
+            <p>Before blockchain the transfer of funds internationally could take days even weeks for the banks on either ends to verify and confirm the transaction. With blockchain, these types of transactions can occur almost instantaneously as the result of instant verification and the cutting of the middle men such as the banks (Manning 2017).
+            Currently, if you sell, send, or use cryptocurrency to make purchases, the transaction information will be available to anyone on the blockchain. Even though the information is publicly available your personal identity is kept confidential and the only information available is the exact cryptocurrency value transferred. The benefit of this is that it allows total transparency due to the blockchain containing records of these transactions that cannot be changed or deleted (Kleinman 2018). Therefore, situations involving financial disputes will be quickly resolved as the result of records that are acknowledged by both parties as 100% correct. </p>
+            <p>One potential application of blockchain is in the emerging field of smart contracts. In a standard situation involving contracts, notaries and lawyers are involved in the process of creating a legally binding contract or document, therefore, are required to pay these middlemen. However, with smart contracts the middlemen are cut out and you deal directly with the other party saving on money (Rosic 2016b).
+The uptake of cryptocurrency from consumers and businesses has risen and will most likely continue in the next 3 years (Rosic 2017). 
+</p>
+            <p>Many forms of digital currency were tried and failed until Satoshi Nakamoto came up with blockchain. In a conventional banking system, the bank would be able to prevent people from spending their money twice as the bank holds the balance records (Rosic 2017).
+Whereas, the failed digital currencies were not able to find a solution to prevent “double spending” as the result of the decentralised nature of digital currencies. However, Blockchain prevents “double spending” by confirming each transaction ensuring that people cannot use their Bitcoin or cryptocurrency twice (Rosic 2017).
+</p>
+            <p>A potential impact of blockchain is essentially the removal of the middle man in the majority of transactions. This will lead to businesses and consumers saving on money and time (Rosic 2016b). A potential impact of cryptocurrency is the possibility that it could even lead to fiat currency such as the USD or AUD being replaced causing a transition to an all digital currency (Schrodt 2018).
+</p>
+            <p>Blockchain’s decentralised nature removes the need for middlemen in any transaction. When one party engages with another party to exchange anything whether that may be land or property, both parties can deal directly with each other. There will be no need for intermediaries such as lawyers or real-estate agents (Eaton-Cardone 2017; Rosic 2016b).
+If cryptocurrency becomes widely adopted amongst consumers, then it will eventually lead to wider adoption amongst businesses allowing cryptocurrency to be accepted as a more mainstream form of payment (Carlton Zone 2018).
+</p>
+            <p>Blockchain has the potential to disrupt many industries such as the legal and the real-estate industry. The decentralised nature of blockchain essentially allows users to not require the services of middlemen. This can lead to a reduction in the use of lawyers, notaries and real estate agents (Eaton-Cardone 2017; Rosic 2016b).
+</p>
+            <p>Currently demand has exceeded supply for people who have experience in implementing blockchain technology (New Gen Apps 2018). Therefore, universities may wish to capitalise on this by creating tertiary courses specifically on blockchain something RMIT University has already done putting themselves ahead of the trend (RMIT University 2018).
+</p>
+            <p>As of now blockchain and cryptocurrency is still in its early days, therefore, blockchain and cryptocurrency will affect me very little in my daily life. However, in the future if uptake of blockchain and cryptocurrency is higher I would be more inclined to dabble in the use of cryptocurrency especially if more businesses accept cryptocurrency.
+</p>
+            <p>If cryptocurrency were to somehow replace fiat currency, then it would lead to massive disruption for me and the public when transitioning from notes and coins to a fully digitised and online currency and economy.
+</p>
+            <p>If the use and adoption of blockchain and cryptocurrency becomes mainstream and is easily understood by a common layperson. Most likely my friends and younger siblings will take up blockchain and cryptocurrency as they have grown up with technology and are tech-savvy as a result. Whereas, my parents are part of an older generation and less tech-savvy, therefore, less likely to use blockchain and cryptocurrency.
+</p>
+           <h3 style="text-align: center">Machine Learning</h3>
+             <p>Machine learning includes the development of algorithms for data-driven prediction or decision making by building models from example inputs. Leading technology companies such as Google, Facebook, Amazon already use machine learning tools Improved analytics applications for image recognition, programmatic advertising, product and content recommendations.
+             Machine learning is a technology let computers to learn some humans and animals activities. It is not like to set up a program and let the computer run the program, machine learning more likely to make a computer learn things directly from data. Computers can improve what they learned according to the increase of samples.（Mathworks 2017)
+             The related industry prediction that machine learning will be used in future data analyses, people who work in this area are trying to make machine learning more accurate and more specific. In the next 3-4 years, machine learning carrying more hope that now and it has to develop very fast. (Rob 2018)</p>
+             <p>Machine learning not only allows companies to discover patterns and trends from an increasing data set, but also automates traditionally completed human analysis, learns from business-related interactions, and provides evidence-based responses. Machine learning now can be used for data modeling and after training, its aware when to run the data models. Machine learning also can be used for serving people, Instart Logic released a product which can collect customer’s activities and use these data to improve their product, this product is designed based on machine learning. Machine learning also can be used to predict problems, use machine learning to analyse the problem and avoid the potential problems.（Boyd 2017)
+             Machine learning can be used in business, to extend the new product, analyse customer’s activities and analyse potential problems and find out some unusual activity in a system.(Gavish 2017)</p>
+             <p>In the next 3 years, machine learning can be used in some complex operations like quantum computing. Machine learning will be used in better unsupervised algorithms. It will be used in machine’s Collaborative learning. (Franczuk 2017)
+Machines learning  can also be used in medical science, it can analyze patients' medical records and give drugs better drugs (Bhartiya 2018)
+Machine learning also can be used in people’s future daily life, they can help people clean house and do some housekeeping works, it also can be very helpful in scientific search area it can help people to explore the space even out of the space. (Criteo 2017)
+</p>
+             <p>There are two techniques drives machine learning keep developing, one is supervised learnings. Supervised learning: supervised learning, in short, given a certain training sample, use this sample to train to get a model then use this model to map all the inputs to the corresponding output, and then make a simple judgment on the output to achieve the classification (or regression) problem.
+The other one is unsupervised learning. Again, the sample is given, but this sample is only data, but there is no corresponding result, requiring direct analysis and modeling of the data. (Mathworks 2017)
+There is another technique names Reinforcement learning, it means that computer programs interact with the dynamic environment in which they must perform a task. 
+</p>
+             <p>Machine learning has potential impact on our society, it will impact medicine industry and people's healthcare because this technology will be used to cure the disease. It will impact the transport industry too, to solve the existing transport problems. Machine learning will also impact the education System, this technology will be used in the class.</p>
+             <p> Machine learning will change people’s life because this technology will definitely be used
+           In people’s daily life, it will also change some jobs because machine learning has huge
+           Impact to many industry.(Carnegie Mellon University 2017)
+
+Machine learning will change everything, this technology will going much deeper than now     and it will combine new technology to change the world.
+</p>
+             <p>People who work on most automatable areas will be most affected because machine learning can analyze their act and learn it, then the machine can replace them to finish their works, in the future, machine learning’s cost can be much lower than labor.(Miremadi 2017)</p>
+             <p>There are many jobs can be replaced by machine, in manufacturing, there are many works gradually replaced by machines, automatic driving technology also emerged.(Miremadi 2017) Machine learning will also replace some rule-based systems which have limited automatable might not suitable for future humans</p>
+             <p>Many years ago, machine learning was just a very distant concept. One machine learning case I know better is an account on Twitter. It collects the information people post. Learning the way people talk after a period of time. This account can post something like a real human. After that, machine learning was applied to all aspects of life. When I was no realized, machine learning had already been added to my life and makes my life more interesting.</p>
+             <p>I would ask the Google home some questions about the weather. In China, there are similar Google home products. They can pass "Training" to say a few words, 
+I think this is also a kind of machine learning, they make my life more different. Previously I would not expect a machine to answer my question. Now I think there are many machines that can do this. It is change the way I thinking
+</p>
+             <p>My family has gradually begun to accept products that contain machine learning (even my grandfather can easily use some like Google Home) and my friends and I are thinking more about how machine learning techniques can change us.  we often discuss machine learning related technologies and we are interested in the operating principles of related products. Sometimes we will also assume that future jobs will be replaced by machines.</p>
+             
+           <h3 style="text-align: center">Robots</h3>
+             <p>Recalling the course of human development, the historical mission of the agricultural society is to eliminate inequalities caused by social relations among humans. The mission of the industrial society is to eliminate the inequality created by social capital. Today, although these two historical missions have not yet been completed, they are no longer the main contradictions and driving forces of today's social development. Instead, they are the inequalities formed by the asymmetry of the level of intelligence. Solving intellectual asymmetry and related social and economic issues are the historical mission of Zhiye society and the essence of the new IT era.
+             The mission of history is too high, too big, too far, much less "machine substitution", "super artificial intelligence", and even "singularity theory" such as "robot enslavement of human beings" and "artificial intelligence dominating the world" attract more attention. In fact, whether it is from the current level of technology or the logic of science, it is impossible for the machine to completely replace human beings, whether it is now or in the future. Artificial intelligence is less likely to fully surpass human intelligence. It is worth noting that those who promote smart technology to cause “mass unemployment” and “endangering humanity” are not professionals who truly engage in and understand the technical nature of this industry, and all are based on language innovation and seemingly mythology. Literary analysis. Moreover, apart from waiting, there is simply no means and possibility to verify these prophecies. For example, predicting that “the artificial intelligence exceeded human intelligence in 2029 and reached the singularity in 2045” is actually no better than the myth of Yamama, “December 21, 2012 is the end of the world”. Perhaps, in the early days of the development of smart technology, this kind of speech helps to arouse the public's attention to the new IT, and it has a certain promoting effect, but if it goes on for a long time, it will be very detrimental to the healthy development of smart technology</p>
+             <p></p>
+             <p>Robots can do what humans call hard work or basic work. According to Gartner, a global authoritative IT assessment agency, one third of human working opportunities in 2025 will be replaced by intelligent robots, which will dramatically change human working patterns. However, such changes may also create many new job opportunities. Humans will learn how to work with machines.
+             At the same time, the robot era itself has also produced new cross-field technical manpower requirements. Rodney Brooks pointed out that at present, colleges and universities' departmental classification system is based on the division of the computer age, but when faced with the advent of the robot era, students must consider whether or not the current learning is shifting direction. It must also strive to become a cross-disciplinary talent to meet the technical manpower needs of the new era.</p>
+             <p>There is no doubt that the new IT era will generate more and better new careers, and it will require more human and material resources to participate instead of making more people unemployed. From the time of the transition from an agricultural society to an industrial society, farmers have had similar concerns. At the beginning of the information age, computers were called "computers," and they really "eliminated" types of workers such as typists and typewriters, but they also created more and better new careers, from "code farmers" to programmers. Architects, network engineers, system administrators, and the entire industry of e-commerce government affairs have made achievements in emerging enterprises such as China's "BAT" and the United States' "FLAG." Robots may temporarily reduce some high-labor-intensive types of work. Artificial intelligence will certainly cancel some of the arduous tasks. However, in the process of humans developing artificial worlds with new IT technologies such as robotics and artificial intelligence, they will certainly be like using computers. Create new jobs that are better and more suitable for humanity. Otherwise, humans will abandon smart technologies because humans must ensure their own sustainable development. (china news) 
+</p>
+             <p> The robotics industry is a technology-intensive industry. The talent advantage is one of the core competitiveness of the companies in the industry. Every professional part of the robot industry needs professional talents, and the training of a full range of professionals requires years of practical experience. Due to the relatively late start of China's R&D in robotics, there is a big gap between China and developed countries. If China cannot have a large number of these professionals in the future, it will seriously affect China’s independent innovation capability in the field of robotics. Missing will seriously affect the overall market competitiveness of China's robotics industry. Once faced with the brain drain and the loss of the ability to continue to innovate, it will have a major impact on the company's continuing operations.
+</p>
+             <p>In recent years, major developed countries have issued a series of policies to promote the development of their robotics industry. As early as ten years ago, the “four big families” of the international robotics industry began to enter China, through the establishment of a Chinese office, to find and nurture Agents, establishing joint ventures, establishing R&D centers, engineering centers, eventually establishing production bases and domestic subsidiaries, gradually completing the layout of the robot industry in China, and occupying a major share of the robot market. According to the statistics of OFweek Industry Research Center, as of the end of December 2015, the number of domestic robot companies reached 1,026. Among them, Guangdong, Zhejiang and Jiangsu had the most robot manufacturers, with 285, 156 and 125 respectively. Most of these companies appeared before and after the “Machine Substitution” policy of the national and local governments was launched in 2014. About 20% of them are ontologies manufacturers. The emergence of many robotics companies makes the future industry face a more severe competition environment.</p>
+             <p>The people who will be most affected with be those who are working against I.T Industry</p>
+             <p>In the field of industrial robots, as our country started relatively late, there is a big gap in technological level compared with developed countries. However, with the rapid development of China's industrial robot industry, it will be an important driving force for China's smooth realization of supply-side reform and realization of “Made in China 2025”. In the field of service robots, service robots and information technology are deeply integrated, gradually moving towards refined division of labor and cross-border integration, and may become the next generation of intelligent terminals such as computers and mobile phones. At present, the preemption of the development of the service robot industry has been given full attention by governments and industry leaders. For a long period of time in the future, the demand for products in the robotics industry in China will continue to expand rapidly. At the same time, it should be noted that as the “four families” of the international robot industry gradually complete the layout of the robot industry in China, it occupies a major market share in the robot market, and competition in the industry market has intensified; the robot industry is a technology-intensive industry, and the talent advantage is within the industry. One of the core competitiveness of enterprises, China's robot manufacturers should continue to increase investment in R & D, and continue to enhance their own research and development capabilities. 
+</p>
+             <p>This won’t affect me for much now. However, it will affect quite of a lot of peoples to look for a job in the future.
+</p>
+             <p> The difference thing I am facing is that the world will be more on robot instead of human. The reason why is because company can save more on paying salary and use a robot to do it faster and easier. The most important thing is that robot doesn’t need any rest like human (sleep).
+</p>
+             <p>To be honest, it won’t affect much to my family or friends as the business they are doing with are not related to any IT. </p>
+             
+           <h3 style="text-align: center">Raspberry Pis and other small computing devices</h3>
+             <p>The Raspberry Pi is a single-board handheld “computer” that is roughly the size of one’s hand and light to carry. Despite its relatively small size, the Raspberry Pi has several key components; HDMI and Ethernet ports, a graphics core, camera, and display interfaces. 
+The latest variant of the Raspberry Pi, 3 Model B has taken leaps of advancement over its original and still marketable version Model A+. The creators effort to advance the capabilities of the Raspberry Pi to be more similar to a real computer, however still portable lead to an addition of Wifi Support to enable users to not be restricted through ethernet cable length or plug in. Similarly, the core components of the board have improved with a 64-bit processor quad-core 1.2GHz ARM Cortex-A53 in lieu of a 900MHz, 32-bit processor allowing a much faster processing rate.
+In a similar manner, other computing devices have also become more relevant as their core hardware is upgraded. Arduino is a similar computing device to the Raspberry Pi, as it is another small, hand-held computer board. It operates somewhat differently to the Pi however is at an outdated stage of advanced technology in comparison. The Arduino contains 32k flash program storage, 2k RAM, 6 PWM outputs, 6 A/D inputs, UART and SPI interfaces and several other key features. Although its purpose is different to that in the Pi, in that they run different software and have alternate uses of education and practice use, in the core hardware and speed of operations the Arduino is at a more primitive stage.</p>
+             <p>The Raspberry Pi, Arduino and other computing devices don’t serve one singular purpose. They are in a general sense a complex computer and as such have practical and imaginative uses that are limited to the ability and knowledge of its user. The use of this small computing devices is to generate a wider approach to application of computing technology.Examples of their use lies online where individuals can apply their own knowledge of programming;
+             One consumer used his Pi in conjunction with his home Wifi and his phone to create a program that utilised Siri on his phone to send a message to the Raspberry Pi computer in his garage. This allowed him to open his garage door with a voice activation command.
+In another example, several individuals have created their own version of retro gaming consoles. A standout case is Darren J’s application of the Raspberry Pi to create MAME (Multiple Arcade Machine Emulator) in which the small computer could be adapted to run multiple simple arcade games on a provided screen. Of course, due to the limitation of both Raspberry Pi’s size and therefore the computing power of its hardware - some emulated games were out of its reach.
+In a general application use, these small computing devices are limited in terms of computing power and speed, but demonstrate the ability to run hundreds of programs that can have a practical application. These programs are in no means complicated, and running more intensive programs will prove to be impossible with the current capabilities of Raspberry Pi, Arduino and other computing devices.</p>
+             <p>The technological level of small computing devices are likely to develop further in future years, however in a short time frame won’t be able to reach a point where its application extends far beyond its current applications. By no means will these devices be able to replace or even compete with larger computing technologies in the near future. What we should hopefully see however, is more creative applications of the transportable devices but in terms of capabilities of the technology itself, only small steps of hardware improvement are likely to occur.
+</p>
+             <p>Developments to core hardware improvement are the biggest contributing factor towards small computing devices having wider uses. Improved processors with more capabilities - higher speed and threading, as well as continuing production of smaller components. An increase to the level of production or means to create hardware will also make this more accessible - as it will drive down the price for consumers, who are the individuals who create use for computing devices such as the Raspberry Pi.
+</p>
+             <p>In the far future developments such as these may have a big influence on creating micro computers or hardware, possibly improving the capabilities of current computers with improvements on costs. Computing devices such as Raspberry Pi and Arduino could have a huge impact in practical quality of life improvements in day-to-day activities. The simple example of a voice activated garage door opening is a small but helpful technological improvement, but demonstrates the capability of these devices to help with small, automated tasks.
+</p>
+             <p>We may not see much change on an overall basis, computing devices are used predominantly by IT-pursuant hobbyists who use them for basic DIY functions
+</p>
+             <p>The people most affected by advancements in this field are those who are current, or future consumers of the product. They will find more applications and perhaps more wealth of knowledge given upgrades to small devices.</p>
+             <p>Advancements of this technology are unlikely to replace or make redundant any current job. As these devices are essentially built for consumers, the advancement of the technology is unlikely to affect supply and demand.</p>
+             <p>In my daily life, this may affect me if I decide to use one of these small computing devices as means of entertainment or education. For me personally, it is more likely to appeal and take hours of my time given that I have an interest in I.T and programming as opposed to other individuals.</p>
+             <p>Small computing devices becoming more technologically advanced is unlikely to make a change to me personally, since I don't currently have interest in them, however if popularity increases due to an increase of technological ability it may affect me as a means of entertainment.</p>
+             <p>This is incredibly unlikely to affect members of my family, however could affect friends or people I know. As said previously, depends on the individual's interests whether or not they would engage in devices such as Raspberry Pi or Arduino</p>
+             
+            </section>
+
+<!-- Project Idea -->
+			<section id="project">
+			  <header class="sectionHeading">
+				<h2>Project Idea</h2>
+			  </header>	
+              
+              <h2 style="text-align: center">The Use of Virtual Reality in Education</h2>
+              <h3>Overview</h3>
+                <p>Technology has advanced to the point that the use of virtual reality has become financially and technologically viable. Virtual Reality provides the user with a completely interactive virtual 3D world with full immersion through a head mounted display that covers the user’s hearing and vision and controllers that provide haptic feedback (Augment 2015). 
+One exciting application of virtual reality is in education which can enhance and provide a more richer learning experience at all levels. One implementation is by providing virtual reality tours for many historical buildings and sites. 
+</p>
+              <h3>Motivation</h3>
+                <p>Technology is ever-evolving and in order for students, teachers, and schools to be not left behind virtual reality should be embraced more readily. Students of any age and ability learn better when they are more engaged and motivated in their learning. What virtual reality can provide is an avenue for this due to the immersion factor. 
+According to Deloitte (2017) 88% of Australians own a smartphone. Smartphones are becoming more cheaper and powerful and provide a cost-effective method to implement virtual reality into the classroom. 
+</p>
+              <h3>Description </h3>
+                <p>There are numerous applications for virtual reality in an educational setting. To narrow the scale down, virtual reality will be applied to creating virtual experiences relating to historical buildings and sites. For virtual reality, instead of students passively learning from textbooks and videos, students can wear virtual reality headsets and find themselves instantly transported to historical buildings and sites without the need to leave their seat in their classroom. </p>
+                <p>For example, students learning about the Great Pyramid of Giza can find themselves instantly transported to it with the virtual reality headset and be able explore every part of it. From a teacher’s point of view, students are able to get a sense of the scale of the Great Pyramid of Giza and students will think to themselves how this was able to be built. This will in turn drive the student’s learning in finding out how this was done without any input from the teacher (ClassVR 2016)
+                Overall, this example shows how students learn best when they want to learn instead of the behest of their teachers and parents. </p>
+              <h3>Tools and Technologies</h3>
+                <p>Virtual Reality does not have to be expensive as a number of smartphones can be used for virtual reality. Furthermore, Google Cardboard provides an inexpensive option as a head mounted display instead of using the more expensive alternatives such as the Gear VR, HTC Vive, or Oculus Rift. This will allow virtual reality to be more accessible to more schools and students. 
+LiveTour is software that can be used to create virtual reality tours with just your smartphone and without the need for specialised 3D camera equipment. The developers will be able to capture footage as they cover every area of various historical buildings and sites and students will be able to retrace their steps in their virtual reality headset (iStaging 2018).  
+</p>
+   <h3>Skills Required </h3>
+     <p>The skills required could be that the developer will need to learn how to use the LiveTour software and be familiar with the use of smartphones and Google Cardboard in virtual reality in order to optimise and create the ideal virtual reality experience.  </p>
+    <h3>Outcome </h3>
+     <p>If successful, the application of virtual reality in the classroom will provide a richer and immersive learning experience, allowing students to get more out of their education.</p>
+              
+            </section>
+		</div>
+	
+<!-- Footer -->
+		<footer>
+		  <p>Property of Duncan Robertson</p>
+		</footer>  
+	</div>
+</body>
+</html>
